@@ -1,0 +1,14 @@
+name: GetIP
+version: ${project.version}
+main: ga.nekozouneko.getip.getip.GetIP
+api-version: 1.17
+authors: [ NekozounekoTeam ]
+description: Get User IP address
+website: https://twitter.com
+commands:
+  getip:
+    description: Get User IP
+    aliases: []
+    permission: 4
+    permission-message: You Can't Run This Command
+    usage: /<command> <player>
